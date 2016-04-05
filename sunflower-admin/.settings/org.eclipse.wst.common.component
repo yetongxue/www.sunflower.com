@@ -10,6 +10,9 @@
         <dependent-module archiveName="sunflower-config-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sunflower-config/sunflower-config">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/sunflower-framework/sunflower-framework">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="sunflower-admin"/>
         <property name="java-output-path" value="/sunflower-admin/target/classes"/>
     </wb-module>
