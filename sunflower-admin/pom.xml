@@ -24,6 +24,11 @@
 			<artifactId>sunflower-config</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>www.sunflower.com</groupId>
+			<artifactId>sunflower-framework</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>sunflower-admin</finalName>

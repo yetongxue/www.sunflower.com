@@ -31,5 +31,6 @@
 		<module>sunflower-admin</module>
 		<module>sunflower-service</module>
 		<module>sunflower-config</module>
+		<module>sunflower.framework</module>
 	</modules>
 </project>
